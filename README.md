@@ -28,11 +28,11 @@ You should be able to build BV2BIDS for any platform supported by [.NET Core](ht
    ```
    dotnet run --project src/FileFormats/src/FileFormats.BrainProducts.GenericDataFormat.BrainVisionValidatorCLI/FileFormats.BrainProducts.GenericDataFormat.BrainVisionValidatorCLI.csproj
    ```
-1. Publish for Windows x64:
+1. Publish for `Windows x64`:
    ```
    dotnet publish src/FileFormats/src/FileFormats.BrainProducts.GenericDataFormat.BrainVisionValidatorCLI/FileFormats.BrainProducts.GenericDataFormat.BrainVisionValidatorCLI.csproj -r win-x64 -c "Release" --self-contained=true -p:PublishSingleFile=true -p:ProductId=BrainVisionToBidsConverterCLI
    ```
 
 ## Download
 
-You may want to use a precompiled and signed version of a tool directly from Brain Products site:
+You may want to use a precompiled and signed version of a tool directly from [Brain Products](https://www.brainproducts.com/) site.
