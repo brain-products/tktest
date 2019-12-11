@@ -1,10 +1,10 @@
-# Introduction 
+# Introduction
 
 **BV2BIDS** is a command line tool that creates the EEG-BIDS folder hierarchy from BVCD files.
 
 # Getting Started
 
-To build and deploy, all you need to download and install is just the [dotnet SDK 3.0.101](https://dotnet.microsoft.com/download/dotnet-core/3.0).  
+To build and deploy, all you need is to download and install the [.NET Core SDK 3.0.101](https://dotnet.microsoft.com/download/dotnet-core/3.0).  
 To start coding, use your preferred editor. You may want to choose one of [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) editions, including the free Community edition.
 
 ## Usage
@@ -19,7 +19,7 @@ Supported language versions:
   
 ## Build & Run
 
-You should be able to build BV2BIDS for any platform supported by [.NET Core](https://dotnet.github.io/):
+You should be able to build **BV2BIDS** for any of [OS versions supported by .NET Core](https://github.com/dotnet/core/blob/master/release-notes/3.0/3.0-supported-os.md).
 
 1. Build:
    ```
