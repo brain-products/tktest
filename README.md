@@ -23,7 +23,7 @@ You should be able to build BV2BIDS for any platform supported by [.NET Core](ht
 
 1. Build:
    ```
-   dotnet build sln/FileFormats.sln
+   dotnet build sln/BVTools.sln
    ```  
    or
    ```
