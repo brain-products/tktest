@@ -1,6 +1,6 @@
 # Introduction 
 
-BV2BIDS is a command line tool that creates the EEG-BIDS folder hierarchy from BVCD files.
+**BV2BIDS** is a command line tool that creates the EEG-BIDS folder hierarchy from BVCD files.
 
 # Getting Started
 
@@ -27,15 +27,15 @@ You should be able to build BV2BIDS for any platform supported by [.NET Core](ht
    ```  
    or
    ```
-   dotnet build src/FileFormats/src/FileFormats.BrainProducts.GenericDataFormat.BrainVisionValidatorCLI/FileFormats.BrainProducts.GenericDataFormat.BrainVisionValidatorCLI.csproj
+   dotnet build src/FileFormats/src/FileFormats.BrainVisionToBidsConverterCLI/FileFormats.BrainVisionToBidsConverterCLI.csproj
    ```
 1. Run:
    ```
-   dotnet run --project src/FileFormats/src/FileFormats.BrainProducts.GenericDataFormat.BrainVisionValidatorCLI/FileFormats.BrainProducts.GenericDataFormat.BrainVisionValidatorCLI.csproj
+   dotnet run --project src/FileFormats/src/FileFormats.BrainVisionToBidsConverterCLI/FileFormats.BrainVisionToBidsConverterCLI.csproj
    ```
 1. Publish for _Windows x64_:
    ```
-   dotnet publish src/FileFormats/src/FileFormats.BrainProducts.GenericDataFormat.BrainVisionValidatorCLI/FileFormats.BrainProducts.GenericDataFormat.BrainVisionValidatorCLI.csproj -r win-x64 -c "Release" --self-contained=true -p:PublishSingleFile=true -p:ProductId=BrainVisionToBidsConverterCLI
+   dotnet publish src/FileFormats/src/FileFormats.BrainVisionToBidsConverterCLI/FileFormats.BrainVisionToBidsConverterCLI.csproj -r win-x64 -c "Release" --self-contained=true -p:PublishSingleFile=true -p:ProductId=BrainVisionToBidsConverterCLI
    ```
 
 # Download
